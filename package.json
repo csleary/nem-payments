@@ -16,6 +16,10 @@
   ],
   "author": "Christopher Leary",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csleary/nem-payments"
+  },
   "dependencies": {
     "nem-sdk": "^1.6.7"
   },
