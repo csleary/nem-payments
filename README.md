@@ -12,7 +12,7 @@ const nemPayments = require("nem-payments");
     "NAER66-DXCNYE-BNMTWA-PKG7CU-27CMUP-TQQDSM-2KL6",
     "Hello World!",
     "http://62.75.163.236"
-  );
+  ).catch(err => console.error(err));
 
   console.log(payments);
 })();
