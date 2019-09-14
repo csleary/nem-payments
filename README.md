@@ -2,8 +2,6 @@
 
 NEM payments is an easy to use module that returns an object (via a promise) containing a list of confirmed NEM transactions for a given NEM address. Only transactions that make use of a given message string in the transactions' 'message' field will be returned. A combined total of all payments made to the address using this message is also included (useful for payment confirmation and order fulfilment).
 
-In your argument you can optionally specify a NEM node to use for the query as the third parameter, otherwise it will query using the node <http://62.75.163.236> (i.e. Alice3, chosen for no particular reason) by default. Note that you need to include the protocol in the node address string.
-
 ## Installation
 
 First install the module as you would any other:
@@ -16,7 +14,7 @@ Import the module as a named import, and it's ready to go.
 
 ## Usage
 
-In its simplest form, your argument takes the form of three string parameters: a NEM address, a text message to look for, and optionally the node you wish to use for the query. If you don't specify a node URL it will carry out the query using the node <http://62.75.163.236> (i.e. Alice3) by default. Note: you need to include the protocol in the node address.
+In its simplest form, your argument takes the form of three string parameters: a NEM address, a text message to look for, and optionally the node you wish to use for the query. If you don't specify a node URL it will carry out the query using the node <http://62.75.163.236> (i.e. Alice3, chosen for no particular reason) by default. Note: you need to include the protocol in the node address.
 
 The NEM address will automatically have have its dashes removed.
 
