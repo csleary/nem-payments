@@ -6,9 +6,9 @@ NEM payments is an easy to use module that returns an object (via a promise) con
 
 First install the module as you would any other:
 
-`$ npm install --save nem-payments`
+`$ npm install nem-payments`
 
-Import the module as a named import, and it's ready to go.
+Then import it, ready for use:
 
 `const nemPayments = require('nem-payments');`
 
