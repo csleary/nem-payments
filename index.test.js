@@ -65,6 +65,8 @@ test('return an unfiltered list of transactions', async () => {
     options
   );
 
+  expect(payments.transactions).toHaveLength(200);
+
   expect(payments).toMatchObject({
     transactions: expect.any(Array),
     xemPaid: expect.any(Number),
