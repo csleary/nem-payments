@@ -1,6 +1,6 @@
 {
   "name": "nem-payments",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Returns an object including a list of confirmed NEM payments made using an identifying message/ID string for a particular address, as well as a payment total and the NEM node used.",
   "main": "./lib/nem-payments.js",
   "scripts": {
